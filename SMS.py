@@ -26,8 +26,8 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 # 短信宝配置
-SMSBAO_USERNAME = "xizhu"  # 请替换为您的短信宝用户名
-SMSBAO_PASSWORD = "8da5b50258c24b658d6c449139a7d782"  # 请替换为您的密码MD5或ApiKey
+SMSBAO_USERNAME = ""  # 请替换为您的短信宝用户名
+SMSBAO_PASSWORD = ""  # 请替换为您的密码MD5或ApiKey
 SMSBAO_GOODSID = ""  # 产品ID（可选，如果使用专用通道则需要填写）
 SMSBAO_API_URL = "http://api.smsbao.com/sms"  # 使用https://api.smsbao.com/sms 则更安全
 
